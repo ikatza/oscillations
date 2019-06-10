@@ -116,12 +116,12 @@ class Oscillations:
 		self.L = 295.0 * units.km  # T2K approximate baseline
 		self.E =   0.6 * units.GeV # T2K approximate peak nu_mu energy
 		
-		self.delta_m2_21 = (7.50e-5) * units.eV2
-		self.delta_m2_32 = (2.32e-3) * units.eV2
+		self.delta_m2_21 = (7.37e-5) * units.eV2
+		self.delta_m2_32 = (2.56e-3) * units.eV2
 		self._updateMasses()
 		
-		self.theta_12 = 33.9 * units.degrees
-		self.theta_13 =  9.1 * units.degrees
+		self.theta_12 = 33.3 * units.degrees
+		self.theta_13 =  8.6 * units.degrees
 		self.theta_23 = 45.0 * units.degrees
 		self.delta_cp =  0.0 * units.degrees
 		self._updateMatrix()
