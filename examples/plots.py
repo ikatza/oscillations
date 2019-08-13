@@ -165,7 +165,7 @@ def plotLOverE(mode = "short"):
 	c.Update()
 	
 	c.SaveAs("figure-osc-le-" + mode + ".png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -225,7 +225,7 @@ def plotDeltaCP(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-dcp-e.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -286,7 +286,7 @@ def plotDeltaCPSecond(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-dcp-e2.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -355,7 +355,7 @@ def plotDeltaCPAnti(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-dcp-anti.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -415,7 +415,7 @@ def plotTheta23(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-t23.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -474,7 +474,7 @@ def plotDM32(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-dm32.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -537,7 +537,7 @@ def plotHierarchy(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-hierarchy.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
@@ -597,7 +597,7 @@ def plotTheta13(e_range):
 	c.Update()
 	
 	c.SaveAs("figure-osc-t13.png")
-	raw_input("continue?")
+	input("continue?")
 
 
 
